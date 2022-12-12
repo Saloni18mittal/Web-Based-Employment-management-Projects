@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="fevicon3.png" type="image/png">
+    <title>Adding New Employee</title>
+    <style>
+        
+        body{
+            background-image: url("https://cutewallpaper.org/21/office-background-wallpaper/business-office-background-images-Magdalene-project.org.jpg");
+            background-size: cover;
+        }
+        h1{
+            text-decoration: underline;
+            color: rgb(10, 123, 175);
+        }
+        h1:hover{
+            color: blueviolet;
+        }
+        label:hover{
+            color: blueviolet;
+        }
+        form{
+            background-color:  rgb(0,0,0,0.2);;;
+         text-align: center;
+          width: 33%;
+          position:relative;
+           left:  500px; 
+           height: 84vh;
+           border-radius: 7px;
+        }
+        input{
+            border: 2px solid red;
+            border-radius: 5px;
+            text-align: center;
+            width: 20vw;
+            height: 28px;
+            margin: auto;
+        }
+        .btn{
+            border: 2px solid red;
+            border-radius: 7px;
+            text-align: center;
+            width: 9vw;
+            height: 30px;
+        }
+        li{
+            padding: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="home_page.html" method="get">
+        <h1>Employee Management System</h1>
+        <div class="container">  
+            <nav>
+                <ul style="list-style: none;">
+                    <li><label for="ID">Employee ID</label></li>
+                    <input class="empid" id="ID" type="number" value=""  placeholder="enter your ID" required>
+                   <li><label for="name">Name</label></li> 
+                    <input class="empname"  id="name"  value="" type="text" placeholder="enter name" required>
+                    <li><label for="age">Age</label></li>
+                    <input class="empage" id="age" type="number" value=""  placeholder="enter age" required>
+                    <li><label for="emaila">email address</label></li>
+                    <input class="empemail" type="email" id="emaila" value="" placeholder="enter email address" required>
+                    <li><label for="department">Department</label></li>
+                    <input class="empdepartment" id="department" type="text" value="" required placeholder="enter department">
+                    <li><label for="workexp">Work experience</label></li>
+                   <input class="empexperience"  id="workexp" type="text" value="" required placeholder="enter your work experience">
+                    <li><label for="address">Address</label></li>
+                    <input class="empaddress"  id="address" type="text" value="" required placeholder="enter address">
+                    <li><label for="contact">Contact Number</label></li>
+                    <input class="empcontact" id="contact" type="number" value=""   required placeholder="enter contact number"><br><br>
+                    <button class="btn" type="submit" style="background-color: green;" value="Submit">Submit</button>
+                    <button class="btn" type="reset" style="background-color: red;" value="Reset">Reset</button>
+                </ul>
+            </nav>
+            </div> 
+</form>
+</body>
+</html>

@@ -1,0 +1,187 @@
+
+.progress {
+     background-color: red;
+     height: 4px;
+     animation: load 1s ease-in-out 1;
+ }
+
+ header {
+     width: 100%;
+ }
+
+ @keyframes load {
+     0% {
+         width: 0;
+     }
+
+     50% {
+         width: 90vw;
+     }
+
+     100% {
+         width: 100vw;
+     }
+ }
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     /* background-color: #2874f0; */
+     background-color: #007b8b;
+     height: 8vh;
+     text-align: center;
+ }
+
+ ul li {
+     float: left;
+ }
+
+ ul li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 20px;
+ }
+
+ ul li.shifting {
+     float: right;
+ }
+
+ ul li a:hover:not(.hover1) {
+     background-color: red;
+     height: 10vh;
+     color: black;
+     text-decoration: underline;
+ }
+
+ ul li a.hover1 {
+     background-color: #04AA6D;
+     height: 10vh;
+ }
+
+ footer {
+     background-color: black;
+     color: white;
+ }
+
+ .ft {
+     text-align: center;
+     border: 2px solid red;
+     height: 25px;
+ }
+
+ .l1 {
+     position: relative;
+     left: 18vw;
+     top: 20vh;
+ }
+
+ .l1:hover {
+     color: greenyellow
+ }
+ button{
+     margin-top: 10px;
+     width: 140px;
+     height: 44px;
+     background-color: red;
+     color: white;
+     border-radius: 8px;
+ }
+ button:hover{
+    background-color: green;
+ }
+ .color {
+     background-color: bisque;
+     margin-bottom: 50px;
+     margin-top: 5px;
+ }
+
+ .first {
+     float: left;
+     margin-left: 50px;
+ }
+
+ .second {
+     margin-left: 700px;
+     font-size: 30px;
+ }
+
+ .container1 {
+     clear: both;
+     border: solid 1px;
+     border-width: 1px;
+     border-color: lightgrey;
+     border-top:  6px solid orangered;
+     border-bottom:  6px solid orangered;
+     
+     margin-left: 120px;
+    margin-bottom: 20px;
+ }
+ .container2 {
+     clear: both;
+     border: solid 1px;
+     border-width: 1px;
+     border-color: lightgrey;
+     border-top:  6px solid orangered;
+     border-bottom:  6px solid orangered;
+     margin-left: 40px;
+    margin-bottom: 20px;
+ }
+
+
+ .margin {
+     margin-top: 20px;
+     margin-right: 20px;
+     margin-left:25px;
+ }
+
+ .flex {
+     display: flex;
+ }
+ .mmargin{
+     margin-bottom: 20px;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+ .margin2{
+     margin-right: 100px;
+ }
+ .font{
+     font-size: 30px;
+ }
+ .float{
+     float: left;
+ }
+ .flexx{
+     margin-top: 30px;
+     margin-right: 10px;
+     margin-left: 20px;
+ }
+ .flexx2{
+     margin-top: 30px;
+     margin-right: 50px;
+     margin-left: 20px;
+ }
+ .flexx3{
+     
+     margin-right: 50px;
+     margin-left: 20px;
+ }
+ form{
+    font-size: 100px;
+ }
+ .mrgin{
+     margin-left: 20px;
+     margin-top: 10px;
+ }
+ .center{
+     margin-left: 290px;
+     margin-top: 32px;
+ }
+ .button:hover{
+     opacity: 0.5;
+ }

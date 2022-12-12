@@ -1,0 +1,269 @@
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.progress {
+   background-color: red;
+   height: 4px;
+   animation: load 1s ease-in-out 1;
+}
+
+header {
+   width: 100%;
+}
+
+@keyframes load {
+   0% {
+       width: 0;
+   }
+
+   50% {
+       width: 90vw;
+   }
+
+   100% {
+       width: 100vw;
+   }
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   /* background-color: #287bf0; */
+   background-color: #007b8b;
+   height: 8vh;
+   text-align: center;
+}
+
+ul li {
+   float: left;
+}
+
+ul li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+ul li.shifting {
+   float: right;
+}
+
+ul li a:hover:not(.hover1) {
+   background-color: red;
+   height: 10vh;
+   color: black;
+   text-decoration: underline;
+}
+
+ul li a.hover1 {
+   background-color: #04AA6D;
+   height: 10vh;
+}
+
+footer {
+   background-color: black;
+   color: white;
+}
+
+.ft {
+   text-align: center;
+   border: 2px solid red;
+   height: 25px;
+}
+
+.l1 {
+   position: relative;
+   left: 18vw;
+   top: 20vh;
+}
+
+.l1:hover {
+   color: greenyellow
+}
+button{
+   margin-top: 10px;
+   width: 140px;
+   height: 44px;
+   background-color: red;
+   color: white;
+   border-radius: 8px;
+}
+button:hover{
+  background-color: green;
+}
+
+body{
+   overflow-x: hidden;
+}
+.abc {
+   margin-top: 2px;
+}
+
+.margin {
+   margin: 20px;
+   padding: 20px;
+}
+
+.img_set {
+   position: relative;
+   left: 200px;
+   margin-bottom: 40px;
+}
+
+.h1_set {
+   position: relative;
+   text-align: center;
+   left: 100px;
+   margin-bottom: 160px;
+   font-size: 60px;
+}
+
+.firstheading {
+ 
+   margin-left: 45%;
+   
+}
+
+.float {
+   float: left;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+.clear {
+   clear: both;
+}
+
+.para {
+   font-size: large;
+   margin-right: 100px;
+   margin-top: 100px;
+}
+
+.ffloat {
+   clear: both;
+   float: left;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 200px;
+}
+
+.mmargin {
+   margin-top: 350px;
+}
+
+.cclear {
+   clear: both;
+   float: right;
+   margin-right: 200px;
+   margin-top: 150px;
+}
+
+.info {
+   margin-left: 100px;
+   float: left;
+}
+
+.infoo {
+   position: relative;
+   margin-top: 150px;
+   font-size: 25px;
+   margin-left: 200px;
+}
+
+.cominfo {
+   clear: both;
+   margin-left: 100px;
+   float: left;
+}
+
+.relative {
+   margin-left: 150px;
+   float: left;
+   margin-right: 150px;
+}
+
+.dispaly {
+   display: flex;
+}
+
+.second {
+   margin-top: 100px;
+}
+
+.edge {
+   clear: both;
+   float: right;
+   margin-right: 150px;
+   margin-top: 100px;
+
+}
+
+.edgee {
+   margin-left: 100px;
+   margin-top: 200px;
+}
+
+.icon {
+
+   margin-left: 150px;
+   margin-top: 100px;
+}
+
+.float {
+
+   float: left;
+}
+
+.iicon {
+   margin-left: 650px;
+   margin-top: 100px;
+
+}
+
+.iiicon {
+   margin-left: 200px;
+   margin-top: 225px;
+
+}
+
+.fff {
+   clear: both;
+   margin-left: 50px;
+   float: right;
+}
+
+.gg {
+   clear: both;
+   float: left;
+}
+
+.thirdicon {
+   margin-top: 260px;
+   margin-left: 1100px;
+}
+.paraa {
+   margin-left: 950px;
+}
+
+.last {
+   clear: both;
+   background-color: bisque;
+}
+
+.lastone {
+   float: left;
+   margin-left: 50px;
+   margin-top: 100px;
+}
+/* .info_setting{
+  justify-content: center;
+} */
